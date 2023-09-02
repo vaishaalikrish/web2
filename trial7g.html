@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>
+          SignUp form
+        </title>
+        <style>
+ textarea,input[type=text], input[type=password],input[type=email],input[type=number]
+            {
+             width:100%;
+             margin: 8px 0px;
+             padding: 12px 20px; 
+             display: inline-block;
+             border: 2px solid rebeccapurple;
+             box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background-color: aquamarine;">
+<h1 style="text-align:center">Registration Form</h1>
+<br>
+<form style="border:3px solid rgb(218, 208, 208)">
+<div style="padding:25px; background-color:beige ;">
+<label>FirstName : </label>
+<input type="text" name="FirstName" maxlength="20" placeholder="FirstName">
+<br><br>
+<label>LastName : </label>
+<input type="text" name="LastName" maxlength="20" placeholder="Lastname">
+<br><br>
+<label>Course</label>
+
+<select>
+    <option value="Course">Course</option>
+    <option value="BCS">BCA</option>
+    <option value="CSE">CSE</option>
+    <option value="IT">IT</option>
+    <option value="MECH">MECH</option>
+    <option value="ECE">ECE</option>
+</select>
+<BR><BR>
+    <label>
+        Gender:
+    </label>
+    <br>
+    <input type="radio" name="Male">Male
+    <input type="radio" name="Female">Female
+            <br><br>
+            <label>
+                Phone:
+            </label>
+            <input type="text" name="country code" value="+91" maxlength="3">
+            <br><br>
+            <input type="text" name="Phone" maxlength="10">
+            <br><br>
+            <label>
+                Address:
+            </label>
+            <br>
+            <textarea cols="20" rows="5" value="Address"></textarea>
+<br><br>
+<label>Email :</label>
+<input type="email" id="email" name="email">
+<br><br>
+<label>Password :</label>
+<br><br>
+<input type="password" id="pass" name="pass">
+<br><br>
+<label>Renter Password :</label>
+<br><br>
+<input type="password" id="pass" name="pass">
+<br><br>
+<button type="submit" onclick="alert('you clicked submit')">SUBMIT</button>
+</div>
+</form>
+    </body>
+</html>
