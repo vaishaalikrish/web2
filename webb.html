@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title style="text-align: center;">LOGIN PAGE</title>
+        <style>
+            body
+            {
+                padding-left: 500px;
+                padding-right: 500px;
+                background-image:url(https://img.freepik.com/free-vector/watercolor-stains-abstract-background_23-2149107181.jpg?w=2000);
+              }
+               button
+    {
+padding: 12px 0px;
+background-color:rgb(172, 215, 149);
+color: black;
+width: 100%;
+align-self: auto;
+cursor: pointer;
+border: none;
+    }
+    button:hover
+    {
+        opacity: 0.75;
+    }
+        </style>
+    </head>
+    <body>
+     <p>
+            <form style="border: 2px solid grey; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; width: 500px; height: 900px; align-items: center;">
+
+                <div style="padding: 10px 5px;margin:2px 2px;background-color:#0000fff;">
+                    <h1 style="text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">LOGIN FORM</h1>
+                    <br><hr><br>
+                    <label><b>Username :</b></label>
+                <br>
+                    <input type="text" name="username" placeholder="Username">
+                <br><br>
+                    <label><b>Password :</b></label>
+                <br>
+                <input type="password" name="password" placeholder="password" size="8">
+                <br><br>
+                <label><b>email :</b></label>
+                <br>
+                <input type="email" name="email" placeholder="email" required>
+                <br><br>
+                <label><b>Mobile number :</b></label>
+                <br>
+                <input type="text" name="country code" value="+91" maxlength="3" size="3">
+                <input type="text" name="Mobile" maxlength="10">
+                <br><br>
+                <label><b>Age :</b></label>
+                <br>
+                <input type="text" name="age" placeholder="age" min="18" max="60" size="3">
+                <br><br>
+                <label><b>Gender :</b></label>
+                <br>
+                <input type="radio" name="Male">Male
+                <input type="radio" name="Female">Female
+                <input type="radio"name="Other">Other
+                <br><br>
+               <!----> <label><b>Course</b></label>
+                <select>
+                    <option value="Course">Course </option>
+                    <option value="BCA">BCA </option>
+                    <option value="CSE">CSE </option>
+                    <option value="IT">IT</option>
+                </select>
+                <br><br>
+                <label><b>Description :</b></label>
+                <br><br>
+                <textarea cols="50" rows="10" placeholder="Enter your interests...."></textarea>
+          <br><br>
+          <button value="confirm" id="con" onclick="alert('Confirm the entered details once.No changes can be made after submission')"><b>CONFIRM</b></button>
+          <br><br>     
+          <a href="file:///D:/html/trial7.html">
+            <button value="submit" id="sub" onclick=""><b>SUBMIT</b></button>
+               
+          </a>     
+          </div>
+            </form>
+           
+        </p>
+    </body>
+</html>
